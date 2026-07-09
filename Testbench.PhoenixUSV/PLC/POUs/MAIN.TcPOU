@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4026.18">
+  <POU Name="MAIN" Id="{85bd1b41-5549-4d90-a836-6937aec40ea7}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	USVCyclicComm : PS_Q4_DcUpsEC_Cyclic_3;
+	USVParamComm  : PS_Q4_DcUpsEC_Param_1;
+	
+	arrInputPD	AT%I* : ARRAY [0..30] OF WORD;	// Connect Multilink of TxPDO here
+	
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[USVCyclicComm(xActivate:=TRUE,arrInputPD:=arrInputPD);
+// USVParamComm();
+]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>

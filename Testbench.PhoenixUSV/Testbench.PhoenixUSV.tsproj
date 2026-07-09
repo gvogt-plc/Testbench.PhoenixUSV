@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<TcSmProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4026.24">
+	<DataTypes>
+		<DataType>
+			<Name GUID="{9B2C29BE-B860-43F7-B5AA-545677355F79}" IecBaseType="true" AutoDeleteType="true">ARRAY [0..30] OF WORD</Name>
+			<BitSize>496</BitSize>
+			<BaseType GUID="{18071995-0000-0000-0000-000000000004}">WORD</BaseType>
+			<ArrayInfo>
+				<LBound>0</LBound>
+				<Elements>31</Elements>
+			</ArrayInfo>
+		</DataType>
+	</DataTypes>
+	<ImageDatas>
+		<ImageData Id="1000">424dd6020000000000003600000028000000100000000e0000000100180000000000a0020000c40e0000c40e00000000000000000000ff00ffff00ffff00ff808080808080808080808080808080808080808080808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff0000c00000c0ffffffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff0000c00000c0ffffffc0c0c000ffffc0c0c000ffff808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff0000c00000c0ffffffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff0000c00000c0ffffffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff0000c00000c0ffffffc0c0c0ff0000c0c0c0ff0000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff0000c00000c0ffffffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff0000c00000c0ffffffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff0000c00000c0ffffffc0c0c00000ffc0c0c00000ff808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff0000c00000c0ffffffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff0000c00000c0ffffffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff0000c00000c0ffffffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff0000c00000c0ffffffc0c0c0008000c0c0c0008000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff0000c00000c0ffffffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff</ImageData>
+		<ImageData Id="1001">424dd6020000000000003600000028000000100000000e0000000100180000000000a0020000120b0000120b00000000000000000000ff00ffff00ffff00ffff00ffff00ffff00ff808080808080808080808080808080808080808080808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080808080808080c0c0c0c0c0c080808000bfffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c080808080808080808000bfff00bfff00bfff00bfff00bfffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080808080808080c0c0c0c0c0c080808000bfffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080808080808080c0c0c0c0c0c080808000bfffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c080808080808080808000bfff00bfff00bfff00bfff00bfff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080808080808080c0c0c0c0c0c080808000bfffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0c0c0c0bbc2bbc0c0c0c0c0c0c0c0c0808080ff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0bac2ba0bfc0bc0c0c0c0c0c0c0c0c0808080ff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ff</ImageData>
+		<ImageData Id="1002">424de6000000000000007600000028000000100000000e000000010004000000000070000000000000000000000000000000000000000000000000008000008000000080800080000000800080008080000080808000c0c0c0000000ff0000ff000000ffff00ff000000ff00ff00ffff0000ffffff00f7000000000007ff000777700000000f007ffff00000000f007ffff07700000f007ffff0fff7000f007ffff0ffff700f007fff700ffff00f007ff80f77fff00f007ff80f77fff00f007fff700ffff00f007ffff0ffff700f007ffff0fff7000f000777707700000ff7000000000007ff</ImageData>
+	</ImageDatas>
+	<Project ProjectGUID="{03126482-0615-F02F-E010-D0959AA42641}" TargetNetId="5.176.90.10.1.1" Target64Bit="true" ShowHideConfigurations="#x6">
+		<System>
+			<Tasks>
+				<Task Id="3" Priority="20" CycleTime="100000" AmsPort="350" AdtTasks="true">
+					<Name>PlcTask</Name>
+				</Task>
+			</Tasks>
+		</System>
+		<Plc>
+			<Project GUID="{D544D9C3-0F26-4D51-8022-33438B0BB672}" Name="PLC" PrjFilePath="PLC\PLC.plcproj" TmcFilePath="PLC\PLC.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{02BD3784-A9C4-5E70-6AF8-83D5B8219EDB}">
+					<Name>PLC Instance</Name>
+					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
+					<Vars VarGrpType="1">
+						<Name>PlcTask Inputs</Name>
+						<Var>
+							<Name>MAIN.arrInputPD</Name>
+							<Comment><![CDATA[ Connect Multilink of TxPDO here]]></Comment>
+							<Type GUID="{9B2C29BE-B860-43F7-B5AA-545677355F79}">ARRAY [0..30] OF WORD</Type>
+						</Var>
+					</Vars>
+					<Contexts>
+						<Context>
+							<Id>0</Id>
+							<Name>PlcTask</Name>
+							<ManualConfig>
+								<OTCID>#x02010030</OTCID>
+							</ManualConfig>
+							<Priority>20</Priority>
+							<CycleTime>10000000</CycleTime>
+						</Context>
+					</Contexts>
+					<JsonDynPous><![CDATA[null]]></JsonDynPous>
+					<TaskPouOids>
+						<TaskPouOid Prio="20" OTCID="#x08502001"/>
+					</TaskPouOids>
+				</Instance>
+			</Project>
+		</Plc>
+		<Io>
+			<Device Id="3" DevType="111" DevFlags="#x0003" AmsPort="28675" AmsNetId="5.176.90.10.4.1" RemoteName="Device 3 (EtherCAT)" InfoImageId="4">
+				<Name>Device 3 (EtherCAT)</Name>
+				<AddressInfo>
+					<Ccat>
+						<Address>-1610612736</Address>
+						<Offset>131072</Offset>
+						<Size>65536</Size>
+						<BaseAddr>0</BaseAddr>
+						<BusNo>65535</BusNo>
+						<SlotNo>0</SlotNo>
+						<Dma>
+							<Address>0</Address>
+							<Offset>4096</Offset>
+							<Size>256</Size>
+							<BaseAddr>2</BaseAddr>
+							<RxChn>0</RxChn>
+							<TxChn>1</TxChn>
+						</Dma>
+					</Ccat>
+				</AddressInfo>
+				<Image Id="3" AddrType="9" ImageType="3">
+					<Name>Image</Name>
+				</Image>
+				<Box Id="4" BoxType="9099">
+					<Name>Term 1 (EK1200)</Name>
+					<ImageId>1000</ImageId>
+					<EtherCAT PdiType="#x0100" CycleMBoxPollingTime="0" VendorId="#x00000002" ProductCode="#x04b02c52" RevisionNo="#x00001388" InfoDataState="false" PortPhys="49" MaxSlotCount="256" MaxSlotGroupCount="1" SlotPdoIncrement="1" SlotIndexIncrement="16" Type="EK1200-5000 EtherCAT Power supply (2A E-Bus)" Desc="EK1200" PortABoxInfo="#x00ffffff"/>
+					<Box Id="5" BoxType="9099">
+						<Name>Term 5 (EK1122)</Name>
+						<ImageId>1001</ImageId>
+						<EtherCAT SlaveType="1" PdiType="#x0d00" CycleMBoxPollingTime="0" VendorId="#x00000002" ProductCode="#x04622c52" RevisionNo="#x00120000" BIC="1P052925SBTN99ajexc41KEK1122                        Q1    2P152601210018" PortPhys="4883" MaxSlotCount="256" MaxSlotGroupCount="1" SlotPdoIncrement="1" SlotIndexIncrement="16" Type="EK1122 2 port EtherCAT junction" Desc="EK1122" PortABoxInfo="#x01000004"/>
+						<Box Id="1" BoxType="9099" BoxFlags="#x00000020">
+							<Name>Box 1 (Uninterruptible Power Supply)</Name>
+							<ImageId>1002</ImageId>
+							<EtherCAT SlaveType="2" PdiType="#x0c08" MboxDataLinkLayer="true" StateMBoxPolling="true" CycleMBoxPollingTime="0" CoeType="35" FoeType="1" VendorId="#x00000084" ProductCode="#x002c5bbe" RevisionNo="#x00000002" InfoDataAddr="true" PortPhys="17" MaxSlotCount="256" MaxSlotGroupCount="1" SlotPdoIncrement="1" SlotIndexIncrement="16" Type="QUINT4-UPS/24DC/24DC/10/EC" Desc="Uninterruptible Power Supply" PortABoxInfo="#x03000005">
+								<SyncMan>0018f60026000100010000002800ce05f600001826010000</SyncMan>
+								<SyncMan>f618f60022000100020000002800ce05f600f61822010000</SyncMan>
+								<SyncMan>00103a006000010004000000000000003a00001060010000</SyncMan>
+								<Fmmu>0000000000000000001000010100000002000000000000000000000000000000</Fmmu>
+								<Fmmu>00000000000000000d0800010100000003000000000000000000000000000000</Fmmu>
+								<Pdo Name="TxPDO 1" Index="#x1a00" Flags="#x0010" SyncMan="2">
+									<Entry Name="STATUS FUNCTIONS" Index="#x4000">
+										<Type>UDINT</Type>
+									</Entry>
+									<Entry Name="STATUS INTERFACE" Index="#x4002">
+										<Type>UDINT</Type>
+									</Entry>
+									<Entry Name="STATUS ACTUAL INPUT VOLTAGE" Index="#x4004">
+										<Type>UINT</Type>
+									</Entry>
+									<Entry Name="STATUS ACTUAL INPUT CURRENT" Index="#x4005">
+										<Type>UINT</Type>
+									</Entry>
+									<Entry Name="STATUS ACTUAL OUTPUT VOLTAGE 1" Index="#x4006">
+										<Type>UINT</Type>
+									</Entry>
+									<Entry Name="STATUS ACTUAL OUTPUT CURRENT 1" Index="#x4007">
+										<Type>UINT</Type>
+									</Entry>
+									<Entry Name="STATUS BATTERY ACTUAL VOLTAGE" Index="#x400a">
+										<Type>UINT</Type>
+									</Entry>
+									<Entry Name="STATUS BATTERY CHARGE CURRENT" Index="#x400b">
+										<Type>UINT</Type>
+									</Entry>
+									<Entry Name="STATUS BATTERY TEMPERATURE" Index="#x400d">
+										<Type>UINT</Type>
+									</Entry>
+									<Entry Name="STATUS DEVICE TEMPERATURE" Index="#x400e">
+										<Type>UINT</Type>
+									</Entry>
+									<Entry Name="STATUS SOC REMAINING TIME" Index="#x4010">
+										<Type>UDINT</Type>
+									</Entry>
+									<Entry Name="STATUS SOC REMAINING TIME PC SHUTDOWN" Index="#x4012">
+										<Type>UINT</Type>
+									</Entry>
+									<Entry Name="STATUS SOH REMAINING LIFETIME" Index="#x4014">
+										<Type>UINT</Type>
+									</Entry>
+									<Entry Name="UPS PROCESS ALARMS" Index="#x7000">
+										<Type>UINT</Type>
+									</Entry>
+									<Entry Name="UPS DIAGNOSIS ALARMS" Index="#x7001">
+										<Type>UDINT</Type>
+									</Entry>
+									<Entry Name="BATTERY 1 ALARMS" Index="#x7002">
+										<Type>UDINT</Type>
+									</Entry>
+									<Entry Name="BATTERY 2 ALARMS" Index="#x7003">
+										<Type>UDINT</Type>
+									</Entry>
+									<Entry Name="BATTERY 3 ALARMS" Index="#x7004">
+										<Type>UDINT</Type>
+									</Entry>
+									<Entry Name="BATTERY 4 ALARMS" Index="#x7005">
+										<Type>UDINT</Type>
+									</Entry>
+									<Entry Name="BATTERY 5 ALARMS" Index="#x7006">
+										<Type>UDINT</Type>
+									</Entry>
+								</Pdo>
+							</EtherCAT>
+						</Box>
+					</Box>
+				</Box>
+				<EtherCAT VirtualDeviceName="true"/>
+			</Device>
+		</Io>
+	</Project>
+	<Mappings>
+		<OwnerA Name="TIPC^PLC^PLC Instance">
+			<OwnerB Name="TIID^Device 3 (EtherCAT)^Term 1 (EK1200)^Term 5 (EK1122)^Box 1 (Uninterruptible Power Supply)">
+				<Link VarA="PlcTask Inputs^MAIN.arrInputPD" VarB="TxPDO 1^BATTERY 1 ALARMS" Size="32" OffsA="304"/>
+				<Link VarA="PlcTask Inputs^MAIN.arrInputPD" VarB="TxPDO 1^BATTERY 2 ALARMS" Size="32" OffsA="336"/>
+				<Link VarA="PlcTask Inputs^MAIN.arrInputPD" VarB="TxPDO 1^BATTERY 3 ALARMS" Size="32" OffsA="368"/>
+				<Link VarA="PlcTask Inputs^MAIN.arrInputPD" VarB="TxPDO 1^BATTERY 4 ALARMS" Size="32" OffsA="400"/>
+				<Link VarA="PlcTask Inputs^MAIN.arrInputPD" VarB="TxPDO 1^BATTERY 5 ALARMS" Size="32" OffsA="432"/>
+				<Link VarA="PlcTask Inputs^MAIN.arrInputPD" VarB="TxPDO 1^STATUS ACTUAL INPUT CURRENT" Size="16" OffsA="80"/>
+				<Link VarA="PlcTask Inputs^MAIN.arrInputPD" VarB="TxPDO 1^STATUS ACTUAL INPUT VOLTAGE" Size="16" OffsA="64"/>
+				<Link VarA="PlcTask Inputs^MAIN.arrInputPD" VarB="TxPDO 1^STATUS ACTUAL OUTPUT CURRENT 1" Size="16" OffsA="112"/>
+				<Link VarA="PlcTask Inputs^MAIN.arrInputPD" VarB="TxPDO 1^STATUS ACTUAL OUTPUT VOLTAGE 1" Size="16" OffsA="96"/>
+				<Link VarA="PlcTask Inputs^MAIN.arrInputPD" VarB="TxPDO 1^STATUS BATTERY ACTUAL VOLTAGE" Size="16" OffsA="128"/>
+				<Link VarA="PlcTask Inputs^MAIN.arrInputPD" VarB="TxPDO 1^STATUS BATTERY CHARGE CURRENT" Size="16" OffsA="144"/>
+				<Link VarA="PlcTask Inputs^MAIN.arrInputPD" VarB="TxPDO 1^STATUS BATTERY TEMPERATURE" Size="16" OffsA="160"/>
+				<Link VarA="PlcTask Inputs^MAIN.arrInputPD" VarB="TxPDO 1^STATUS DEVICE TEMPERATURE" Size="16" OffsA="176"/>
+				<Link VarA="PlcTask Inputs^MAIN.arrInputPD" VarB="TxPDO 1^STATUS FUNCTIONS"/>
+				<Link VarA="PlcTask Inputs^MAIN.arrInputPD" VarB="TxPDO 1^STATUS INTERFACE" Size="32" OffsA="32"/>
+				<Link VarA="PlcTask Inputs^MAIN.arrInputPD" VarB="TxPDO 1^STATUS SOC REMAINING TIME" Size="32" OffsA="192"/>
+				<Link VarA="PlcTask Inputs^MAIN.arrInputPD" VarB="TxPDO 1^STATUS SOC REMAINING TIME PC SHUTDOWN" Size="16" OffsA="224"/>
+				<Link VarA="PlcTask Inputs^MAIN.arrInputPD" VarB="TxPDO 1^STATUS SOH REMAINING LIFETIME" Size="16" OffsA="240"/>
+				<Link VarA="PlcTask Inputs^MAIN.arrInputPD" VarB="TxPDO 1^UPS DIAGNOSIS ALARMS" Size="32" OffsA="272"/>
+				<Link VarA="PlcTask Inputs^MAIN.arrInputPD" VarB="TxPDO 1^UPS PROCESS ALARMS" Size="16" OffsA="256"/>
+			</OwnerB>
+		</OwnerA>
+	</Mappings>
+</TcSmProject>
